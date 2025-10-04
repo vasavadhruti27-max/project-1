@@ -1,0 +1,73 @@
+h1{
+    color: rgb(4, 4, 104);
+    text-align: center;
+    background-color: bisque;
+    padding: 20;
+}
+body{
+    background-image: url(garba5.jpg);
+}
+p{
+    text-align: center;
+    background-color: white;
+}
+.london{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(211, 207, 211);
+    color: rgb(43, 6, 82);
+}
+.paris{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 215, 238);
+    color: rgb(67, 44, 4);
+    padding: 20;
+}
+.tokyo{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(244, 220, 249);
+    color: rgb(64, 3, 64);
+    padding: 20;
+}
+.container{
+    display:flex;
+    grid-template-columns: auto;
+    column-gap: 20px;
+    
+}
+.foot{
+    background-color: antiquewhite;
+    text-align: center;
+    color: rgb(116, 6, 6);
+}
+.ul{
+    background-color: rgb(18, 186, 237);
+    width: 70%;
+    height: 90%;
+    text-align: center;
+}
+.transform{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.b1:hover{
+    transform: rotate(45deg);
+}
+.b2:hover{
+    transform: rotate(45deg);
+}
+.b3:hover{
+    transform: rotate(45deg);
+}
+.butt{
+    background-color: beige;
+}
+.butt:hover{
+    background-color: brown;
+}
+.butt:active{
+    background-color: black;
+}

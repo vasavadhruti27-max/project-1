@@ -1,0 +1,58 @@
+.ex1{
+    background-color: rgb(195, 177, 58);
+    text-size-adjust: 10px;
+    color:rgb(243, 237, 237);
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+body{
+    background-color: rgb(255, 238, 243);
+}
+.ex7:hover{
+    background-color: rgb(162, 162, 230);
+}
+.ex7:active{
+    background-color: rgb(0, 0, 0);
+}
+.hell{
+        text-align: center;
+        font-size: 7em;
+        color: rgb(17, 28, 2);
+}
+.tex{
+        text-align: center;
+        font-size: 2em;
+        color: darkslategray;
+}
+.txt{
+        text-align: center;
+        font-size: 1em;
+        color: rgb(4, 5, 5);
+}
+.di{
+        width: 30%;
+        height:auto;
+        display: block;
+        background-color: antiquewhite;
+}
+.dis{
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        gap: 20px;
+}
+h2{
+    text-align: center;
+    color: darkolivegreen;
+}
+p{
+    text-align: center;
+}
+.name1{
+    background-color: aquamarine;
+    width:50%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
